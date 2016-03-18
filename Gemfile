@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
+# Hash function for password protection and security
+gem 'bcrypt', '3.1.7'
 # Twitter boostrap for styling 
 gem 'bootstrap-sass', '3.2.0.0'
 # Use SCSS for stylesheets
