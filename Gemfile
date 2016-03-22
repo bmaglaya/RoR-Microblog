@@ -59,4 +59,6 @@ group :production do
   gem 'pg',             '0.17.1'
   # Static things for Heroku
   gem 'rails_12factor', '0.0.2'
+  # Webserver - an http server that is capable of handling large number of incoming requests
+  gem 'puma',           '3.1.0'
 end
